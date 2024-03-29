@@ -1,0 +1,78 @@
+/*Cores:
+#FBE7CF;
+#FDCBCA;
+#F88572;
+#F70008;
+#E50C11;
+#000000;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #F70008;
+    color: #000000;
+    padding: 6vh;
+}
+
+header ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+header li {
+    padding: 18px;
+    font-size: 17px;
+}
+
+#main {
+    background-color: #FDCBCA;
+    padding: 30vh;
+}
+
+#prog {
+    background-color: #FBE7CF;
+    padding: 30vh;
+}
+
+#hist {
+    background: linear-gradient(180deg, #FBE7CF 1%, #F88572 100%);
+    padding: 30vh;
+}
+
+#mio {
+    background: linear-gradient(180deg, rgba(248, 133, 114, 0.500) 20%, rgba(251, 231, 207, 0.735) 30%), url(imagens/bg\ pucca.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 20vh;
+    display: flex;
+}
+
+#mio div {
+padding: 20px;
+}
+
+.img {
+width: 60%;
+height: auto;
+}
+
+.img img {
+border-radius: 18%;
+box-shadow: -3px 5px 10px black;
+}
+
+.adverte h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.adverte p {
+    font-size: 18px;
+}
