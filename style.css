@@ -14,7 +14,6 @@
 
 header {
     background-color: #F70008;
-    color: #000000;
     padding: 6vh;
 }
 
@@ -30,8 +29,23 @@ header li {
     font-size: 17px;
 }
 
+header a {
+text-decoration: none;
+color: #000000;
+animation: none;
+}
+
+header a:hover {
+    padding: 18px;
+    font-size: 17px;
+    transition: 0.6s;
+    color: #F70008;
+    background-color: #FBE7CF;
+}
+
 #main {
     background-color: #FDCBCA;
+    background: linear-gradient(180deg, #FDCBCA 80%, #FBE7CF 90%);
     padding: 45vh;
 }
 
@@ -47,6 +61,18 @@ header li {
 
 #main button {
     background-color: #F70008;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 28px;
+    margin: 20px;
+    margin-top: 40px;
+    border: 0px;
+}
+
+#main button:hover {
+    transition: 0.6s;
+    color: #F88572;
+    background-color: #851602;
     padding: 20px;
     border-radius: 30px;
     font-size: 28px;
@@ -76,6 +102,17 @@ header li {
 
 #prog button {
     background-color: #F70008;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 26px;
+    margin: 20px;
+    margin-top: 28px;
+    border: 0px;
+}
+#prog button:hover {
+    transition: 0.6s;
+    color: #F88572;
+    background-color: #851602;
     padding: 20px;
     border-radius: 30px;
     font-size: 26px;
@@ -119,6 +156,20 @@ header li {
     border: 0px;
 }
 
+#hist button:hover {
+    padding: 20px;
+    transition: 0.6s;
+    color: #F88572;
+    background-color: #851602;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-color: #000000;
+    border: 0px;
+}
+
 #hist hr {
     display: flex;
     width: 70%;
@@ -153,7 +204,7 @@ header li {
 }
 
 .img img {
-    border-radius: 18%;
+    border-radius: 500px;
     box-shadow: -3px 5px 10px black;
 }
 
@@ -164,21 +215,38 @@ header li {
 
 .adverte p {
     font-size: 20px;
+    text-align: justify;
 }
 
 footer {
-    background: linear-gradient(180deg, #F88572 5%, #FBE7CF 30%);
-    padding: 20vh;
+    background-color: #F70008;
+    padding: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 footer img {
     width: 20%;
+    background-color: #FBE7CF;
+    padding: 20px;
+    border-radius: 40px;
 }
 
 footer a {
     font-size: 18px;
     text-decoration: none;
+    color: #000000;
+    background-color: #FBE7CF;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+footer a:hover {
+    font-size: 25px;
+    transition: 0.6s;
     color: #F70008;
+    background-color: #FBE7CF;
+    border-radius: 50px;
+    padding: 20px;
 }
