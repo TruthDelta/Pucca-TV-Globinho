@@ -32,17 +32,104 @@ header li {
 
 #main {
     background-color: #FDCBCA;
-    padding: 30vh;
+    padding: 45vh;
+}
+
+#main h1 {
+    font-size: 8vw;
+    margin-bottom: -20px;
+}
+
+#main h2 {
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+#main button {
+    background-color: #F70008;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 28px;
+    margin: 20px;
+    margin-top: 40px;
+    border: 0px;
 }
 
 #prog {
     background-color: #FBE7CF;
-    padding: 30vh;
+    padding: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#prog div {
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#prog p {
+    text-align: left;
+    font-size: 35px;
+}
+
+#prog button {
+    background-color: #F70008;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 26px;
+    margin: 20px;
+    margin-top: 28px;
+    border: 0px;
+}
+
+#prog img {
+    width: 500px;
+    border-radius: 500px;
+    box-shadow: -3px 5px 10px black;
+    margin: 40px;
 }
 
 #hist {
     background: linear-gradient(180deg, #FBE7CF 1%, #F88572 100%);
     padding: 30vh;
+}
+
+#hist h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#hist p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+#hist button {
+    background-color: #F70008;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-color: #000000;
+    border: 0px;
+}
+
+#hist hr {
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+    color: #000000;
+}
+
+#hist img {
+    width: 30%;
+    margin: auto;
+    display: block;
 }
 
 #mio {
@@ -52,27 +139,46 @@ header li {
     background-position: center;
     padding: 20vh;
     display: flex;
+    align-items: center;
 }
 
 #mio div {
-padding: 20px;
+    padding: 20px;
+    align-items: center;
 }
 
 .img {
-width: 60%;
-height: auto;
+    width: 60%;
+    height: auto;
 }
 
 .img img {
-border-radius: 18%;
-box-shadow: -3px 5px 10px black;
+    border-radius: 18%;
+    box-shadow: -3px 5px 10px black;
 }
 
-.adverte h3{
-    font-size: 40px;
+.adverte h3 {
+    font-size: 45px;
     margin-bottom: 10px;
 }
 
 .adverte p {
+    font-size: 20px;
+}
+
+footer {
+    background: linear-gradient(180deg, #F88572 5%, #FBE7CF 30%);
+    padding: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 20%;
+}
+
+footer a {
     font-size: 18px;
+    text-decoration: none;
+    color: #F70008;
 }
