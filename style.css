@@ -233,6 +233,14 @@ footer img {
     border-radius: 40px;
 }
 
+footer img:hover {
+    transition: 0.6s;
+    width: 25%;
+    background-color: #FBE7CF;
+    padding: 20px;
+    border-radius: 40px;
+}
+
 footer a {
     font-size: 18px;
     text-decoration: none;
